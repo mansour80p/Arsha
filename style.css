@@ -1,0 +1,405 @@
+body
+{ overflow-x: hidden;
+}
+.mm
+{
+    margin-left: auto !important;
+}
+.link
+{
+    color: #47b2e4 !important;
+    font:bold 2rem !important;
+}
+
+.darkmode--activated p, .darkmode--activated li {
+    color: #000;
+  }
+  
+
+
+  .button {
+    isolation: isolate;
+  }
+  
+  .darkmode--activated .logo {
+    mix-blend-mode: difference;
+  }
+  .darkmode-layer, .darkmode-toggle {
+    z-index: 500;
+    background:black;
+  }
+.b{
+    border: #47b2e4 0.2rem solid !important;
+    color: white !important;
+    font-size: 1rem !important;
+    font-weight: bold !important;
+}
+.b a{
+    text-decoration: none;
+}
+.b:hover
+{
+    background-color: #47b2e4 !important;
+    color: white !important;
+}
+.colored
+{
+    color: white !important;
+    font-weight: bold !important;
+}
+.colored:hover
+{
+    color: #47b2e4 !important;
+}
+
+.dropdown-item
+{
+    color: black !important;
+}
+.hero
+{
+    width: 40rem !important;
+  
+    animation: hero 2.5s infinite;
+    position: relative;
+}
+@keyframes hero{
+    0%{bottom: 2rem};
+    5%{bottom: 1rem};
+10%{bottom: 3rem};
+15%{top:1rem};
+30%{top:3rem};
+100%{top:5rem};
+}
+.sizing
+{
+    font-size: 2rem !important;
+    font-weight: bold !important;
+    
+}
+.naves
+{
+    background: rgba(55, 81, 126, 0.8) !important;
+}
+.home
+{
+    background: #37517e !important;
+}
+.nave
+{
+    background: #37517e !important;
+    transition: all 0.4s ease !important;
+
+}
+.h1
+{
+    font-size: 7rem !important;
+}
+
+#h h1
+{
+    font-weight: bold;
+    font-size: 3rem !important;
+    
+}
+
+#h p
+{
+    color:  rgba(255, 255, 255, 0.6);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.d
+{
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: #47b2e4 !important;
+    border: none;
+border-radius: 3rem;
+display:inline;
+}
+.s
+{
+    font-size: 2rem  !important;
+}
+
+#h a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 3rem 0rem;
+}
+.photo
+{
+    background-color: #f3f5fa;
+}
+.ph
+{
+    width: 50%;
+}
+.size
+{
+    width: 80%;
+    filter: grayscale(100);
+    transition: 1s all ease-in-out;
+}
+.size:hover{
+    filter: none;
+    width: 90%;
+}
+.about
+{
+    position: relative;
+}
+.blue-line:after{
+    content: "";
+
+  
+   position: absolute;
+      height: 0.2rem;
+   background-color: #47b2e4;
+   width: 5%;
+   margin-left: 15px;
+   top: 80%;
+ 
+}
+.para ul li{
+   list-style: none; 
+}
+
+.fa-check-double
+{
+    color: #47b2e4;
+}
+.a{
+    border: #47b2e4 0.2rem solid !important;
+    color: #47b2e4 !important;
+    font-size: 1rem !important;
+    font-weight: bold !important;
+}
+.a a{
+    text-decoration: none;
+}
+.a:hover
+{
+    background-color: #47b2e4 !important;
+    color: white !important;
+}
+.aboutus
+{
+    color: #37517e !important;
+    font-weight: bold !important;
+}
+.h3 h3
+{
+    color:#37517e;
+    font-size: 2rem;
+}
+.h3 h3 span
+{
+    font-weight: bold;
+}
+.h3 p
+{
+    color: #848484;
+    font-size: 0.9rem;
+}
+.h3 .card-header
+{
+    background-color: white !important;
+    border: none !important;
+    
+}
+.h3 .card{
+    border: none !important;
+    margin: 1rem !important;
+}
+.velit
+{
+    background-color: #f3f5fa !important
+    
+}
+.h3 .card .btn-link
+{
+    text-decoration: none !important;
+}
+.h3 .card-header span 
+{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #47b2e4;
+    position: relative;
+}
+.fa-sort-down
+{
+    font-size: 1.5rem !important;
+     color: #47b2e4 !important;
+     margin-left: 1rem;
+  
+}
+.py img
+{
+    width: 120% !important;
+   
+    padding-left: 2rem !important;
+}
+.accordion-button span
+{
+    position: relative;
+    right: 1%;
+    color: #47b2e4;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.accordion-button h5
+{
+    font-size: 1.1rem;
+}
+.accordion-button h5:hover{
+    color: #47b2e4;
+}
+.skill .s
+{
+    display: inline;
+    font-weight: 900;
+    color: #37517e !important;
+    font-size: 0.7rem !important;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    margin: 0.8rem;
+}
+.skill h1
+{
+    color: #37517e;
+    font-weight: bold;
+}
+
+.skill i
+{
+    float: right;
+}
+.skill .progress
+{
+    height: 0.8rem !important;
+    color:  #4668a2 !important;
+    border: none !important;
+    border-radius: 0% !important;
+    margin: 0.5rem
+}
+.skill .progress-bar{
+    color:  #4668a2 !important;
+}
+.serv{
+    position: relative;
+}
+
+.serv p
+{
+    font-size: 1.1rem;
+    color: #848484;
+}
+.fa-dribbble,.fa-file ,.fa-tachometer-alt,.fa-layer-group{
+    color:#47b2e4; 
+    font-size: 2rem !important;
+}
+.card2 h5
+{
+    color: #37517e;
+    font-size: 1.5rem !important;
+}
+.card2{
+    box-shadow: 0px 0 25px 0 rgb(0 0 0 / 10%);
+    transition: 0.5s ease-in-out  all;
+    transition-timing-function: linear;
+
+}
+.card2 h5:hover
+{
+    color: #47b2e4;
+}
+.card2:hover
+{
+    color: #47b2e4;
+
+    position: relative;
+    bottom: 1rem;
+}
+.card2 p
+{
+    color:#848484;
+
+}
+.back{
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(img/cta-bg.jpg) fixed center center;
+}
+.backs{
+    color: white;
+}
+.backs p
+{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.backs h3
+{
+    text-transform: capitalize;
+    font-weight: 800;
+}
+.btn-white
+{
+    border: 0.15rem solid white !important;
+    border-radius: 2rem !important;
+    color: white !important;
+    font-size: 1.2rem !important;
+    text-transform: capitalize;
+    font-weight:600;
+    width: 80%;
+}
+.filterDiv {
+    float: left;
+    color: #ffffff;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+  }
+  .filterDiv img
+  {
+      max-width: 20rem;
+      padding-left: 6rem;
+
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .container {
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+  .imgs{
+      width: 80% !important;
+  }
+  
